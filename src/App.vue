@@ -1,10 +1,27 @@
 <template>
-  <nav>
+  <headertop />
+  <!-- <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-  </nav>
+  </nav> -->
+  <Navbar />
   <router-view/>
+  <Footer />
 </template>
+
+<script>
+import headertop from './components/headertop.vue'
+import Navbar from './components/Navbar.vue'
+import Footer from './components/footer.vue'
+export default {
+  components: { 
+    headertop,
+    Navbar,
+    Footer
+  },
+
+}
+</script>
 
 <style lang="scss">
 #app {
