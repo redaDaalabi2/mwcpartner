@@ -22,12 +22,12 @@
       </p>
 
       <div class="mt-8 flex flex-wrap gap-4 text-center">
-        <a
-          href="#"
-          class="font-bold backcolo block w-full rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+        <router-link
+          to="/"
+          class="font-bold backcolo block w-full rounded px-12 py-3 text-sm font-medium text-white shadow focus:outline-none focus:ring sm:w-auto"
         >
           Voir plus
-        </a>
+        </router-link>
       </div>
     </div>
   </div>
@@ -37,22 +37,25 @@
       <div class="items-center gap-x-12 sm:px-4 md:px-0 lg:flex">
         <div class="flex-1 sm:hidden lg:block">
           <img
-            src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=774&amp;q=80"
+            src="../assets/sommenous.jpg"
             class="md:max-w-lg sm:rounded-lg"
             alt=""
           />
         </div>
-        <div class="w-full px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl">
+        <div class="w-full px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl text-justify">
           <p class="text-gray-800 pb-8 text-3xl font-semibold sm:text-4xl">
             Qui Somme Nous ?
           </p>
           <p class="mt-3 text-gray-600">
-            La société MWC implantée à Safi est une société de services spécialisée dans le contrôle, inspection et les formations professionnelles dans différents domaines.
+            <i class="fa-solid fa-check mr-2"></i>
+            La société MWC implantée à Safi est une société de services spécialisée dans le contrôle et l'inspection.
           </p>
           <p class="mt-3 text-gray-600">
+            <i class="fa-solid fa-check mr-2"></i>
             Grâce à un processus de sélection rigoureux, MWC met à votre disposition une équipe efficace, fiable, compétente et la plus adaptée à vos besoins et attentes.
           </p>
           <p class="mt-3 text-gray-600">
+            <i class="fa-solid fa-check mr-2"></i>
             Connaissant l'énorme importance de la confiance que vous accordez à nos services, nous sommes agiles, réactifs et toujours impatients de satisfaire vos demandes et exigences.
           </p>
         </div>
@@ -64,17 +67,20 @@
   <section class="py-14">
     <div class="max-w-screen-xl mx-auto md:px-8">
       <div class="items-center gap-x-12 sm:px-4 md:px-0 lg:flex">
-        <div class="w-full px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl mb-8">
+        <div class="w-full px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl mb-8 text-justify">
           <p class="text-gray-800 pb-8 text-3xl font-semibold sm:text-4xl">
             POURQUOI CHOISIR MWC ?
           </p>
           <p class="mt-3 text-gray-600">
+            <i class="fa-solid fa-check mr-2"></i>
             Un suivi régulier pour maintenir la satisfaction de nos clients.
           </p>
           <p class="mt-3 text-gray-600">
+            <i class="fa-solid fa-check mr-2"></i>
             Une équipe compétente avec les compétences nécessaires Compétitive.
           </p>
           <p class="mt-3 text-gray-600">
+            <i class="fa-solid fa-check mr-2"></i>
             Meilleur prix.
           </p>
         </div>

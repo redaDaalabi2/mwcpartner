@@ -1,32 +1,38 @@
 <template>
     <div>
       <!-- ====== Contact Section Start -->
-      <section class="bg-white p-20 lg:py-[120px] overflow-hidden relative z-10">
+      <section class="bg-white p-20 lg:py-[60px] overflow-hidden relative z-10">
         <div class="w-full mb-16">
         <span class="mb-8 text-3xl text-green-600 font-bold">
             Contact
         </span>
         </div>
         <div class="container">
-          <div class="flex flex-wrap lg:justify-between -mx-4">
+          <div class="flex flex-wrap lg:justify-between -mx-4 text-justify">
             <div class="w-full lg:w-1/2 xl:w-6/12 px-4">
               <div class="max-w-[570px] mb-12 lg:mb-0">
                 <h2
                     class="
                   text-dark
-                  mb-6
-                  uppercase
                   font-bold
                   text-[32px]
-                  sm:text-[40px]
-                  lg:text-[36px]
-                  xl:text-[40px]
+                  sm:text-[20px]
+                  lg:text-[26px]
+                  xl:text-[30px]
                   "
                 >
-                  MOROCCO WELDING CONTROL
+                  MOROCCO WELDING CONTROL,
                 </h2>
+                <p class="italic text-dark
+                  font-bold
+                  text-[32px]
+                  sm:text-[20px]
+                  lg:text-[26px]
+                  xl:text-[30px]
+                  mb-10
+                  ">votre partenaire vers le succès</p>
                 <p class="text-base text-body-color leading-relaxed mb-9">
-                  There are real people answering you behind this contact form! Available 24 hours a day, 7 days a week, and we will respond to you in less than 2 hours from Monday to Friday from 10 a.m. to 12 p.m. and from 2 p.m. to 5 p.m., and as quickly as possible the rest of the time. You can ask us all your questions concerning the use of our website or the follow-up of your orders.
+                  Nous restons à votre disposition pour analyser vos besoins, vos attentes, et vous transmettre dans les 48h un devis correspondant.
                 </p>
                 <div class="flex mb-8 max-w-[370px] w-full">
                   <div
@@ -101,8 +107,9 @@
                   </div>
                   <div class="w-full">
                     <h4 class="font-bold text-dark text-xl mb-1">Numéro de telephone</h4>
-                    <p class="text-base text-body-color">(+212)658673429</p>
-                    <p class="text-base text-body-color">(+212)661500473</p>
+                    <p class="text-base text-body-color mt-3">(+212)658673429</p>
+                    <p class="text-base text-body-color mt-3">(+212)661500473</p>
+                    <p class="text-base text-body-color mt-3">(+212)623692931</p>
                   </div>
                 </div>
                 <div class="flex mb-8 max-w-[370px] w-full">

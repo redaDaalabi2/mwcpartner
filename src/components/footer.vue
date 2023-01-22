@@ -1,5 +1,5 @@
 <template>
-    <footer class="shadow-2xl relative flex justify-start md:justify-center md:items-end p-5 text-black">
+    <footer class="shadow-2xl relative flex justify-start sm:justify-center md:justify-center md:items-end p-5 text-black">
       <div class="flex flex-col justify-start items-start md:justify-center md:items-center relative z-10">
           <div class="flex flex-col items-start justify-start xl:justify-center xl:space-x-8 xl:flex-row">
               <div class="flex justify-start items-center space-x-4">
@@ -56,7 +56,7 @@
                       Sitemap
                   </button> -->
                   Directed By
-                  <span class="font-bold text-sm text-green-600 ml-1">Reda DAALABI</span>
+                  <span class="font-bold text-sm text-green-600 ml-1">Hicham ER-RAFII</span>
               </div>
               <div class="flex  justify-start md:justify-end items-start  w-full md:w-auto md:items-center space-x-6 ">
                   <button class="hover:text-base-200 w-6">
